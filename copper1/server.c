@@ -57,8 +57,8 @@ int main(int argc, char *argv[]) {
                   }
               }
 
-              // send(c, &spaces, sizeof(spaces), 0);
-              // spaces = ntohs(spaces);
+              send(c, &spaces, sizeof(spaces), 0);
+              spaces = ntohs(spaces);
 
               close(c);
               // sfarsitul deservirii clientului;

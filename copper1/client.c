@@ -42,10 +42,10 @@ int main(int argc, char *argv[]) {
            printf("%c", message[i]);
        }
 
-       // uint16_t spaces = 0;
-       // recv(c, &spaces, sizeof(spaces), 0);
-       // spaces = ntohs(spaces);
-       //
-       // printf("Number of spaces %hu\n", spaces);
+       uint16_t spaces = 0;
+       spaces = ntohs(spaces);
+       recv(c, &spaces, sizeof(spaces), 0);
+
+       printf("Number of spaces %hu\n", spaces);
        close(c);
 }
