@@ -9,8 +9,8 @@ class Server:
         self.socket = socket
 
     def client_handler(self, conn, address):
-        result = {'sum': 0, 'values': []}
-        amount = conn.recv(4)
+        # result = {'sum': 0, 'values': []}
+        amount = conn.recv(1024)
         amount = struct.unpack('i', amount)[0]
         for _ in range(0, amount):
             data = conn.recv(4)
