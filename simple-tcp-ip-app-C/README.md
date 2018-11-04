@@ -6,19 +6,20 @@ int clientSocketDescriptor = accept(
                                     &clientNameSize
                                     );
 ```
-Here is the trick: Since the accept function requires a struct sockaddr pointer, we can cast our struct sockaddr_in having sa_family_t type size as first argument in both structures.
+Here is the trick: Since the accept function requires a struct sockaddr pointer, we can cast our struct sockaddr_in.
 ```c
 int accept(int socket, struct sockaddr* restrict address, socklen_t *restrict address_len);
 
 struct sockaddr_in {
-         sa_family_t    sin_family; /* address family: AF_INET */
-         in_port_t      sin_port;   /* port in network byte order */
-         struct in_addr sin_addr;   /* internet address */
+    short           sin_family;       /* 2 bytes */
+    unsigned short  sin_port;         /* 2 bytes */
+    struct in_addr  sin_addr;         /* 4 bytes */
+    char            sin_zero[8];      /* 8 bytes */
 };
 
 struct sockaddr {
-   sa_family_t sa_family;
-   char        sa_data[14];
+   sa_family_t sa_family;             /* 2 bytes */
+   char        sa_data[14];           /* 14 bytes */
 }
 
 /* Internet address. */
