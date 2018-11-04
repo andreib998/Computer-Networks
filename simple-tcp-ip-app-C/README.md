@@ -1,13 +1,13 @@
 When accepting an incoming request:
-```
-    int clientSocketDescriptor = accept(
-                                        serverSocketDescriptor,
-                                        (struct sockaddr*) &clientName,
-                                        &clientNameSize
-                                        );
+```c
+int clientSocketDescriptor = accept(
+                                    serverSocketDescriptor,
+                                    (struct sockaddr*) &clientName,
+                                    &clientNameSize
+                                    );
 ```
 Here is the trick: Since the accept function requires a struct sockaddr pointer, we can cast our struct sockaddr_in having sa_family_t type size as first argument in both structures.
-```
+```c
 int accept(int socket, struct sockaddr* restrict address, socklen_t *restrict address_len);
 
 struct sockaddr_in {
