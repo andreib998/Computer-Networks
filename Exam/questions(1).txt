@@ -1,0 +1,125 @@
+OSI Layers:
+1. The Physical Layer is the bottom layer of the OSI model. 
+2. The Physical Layer is the top layer of the OSI model. 
+3. The Application Layer is the top layer of the OSI model. 
+4. The Application Layer is the bottom layer of the OSI model. 
+
+IP:
+5. CIDR (Classless Inter-Domain Routing) introduced 3 classes of private IPs which are: 10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16. 
+6. CIDR (Classless Inter-Domain Routing) introduced 3 classes of private IPs which are: 10.0.0.0/8, 172.16.0.0/16, 192.168.0.0/20. 
+
+7. The IP adress 12.40.24.6/16 has the following netowrk adress:
+a) 12.40.255.255/16
+b) 12.40.24.1/16
+c) 12.40.24.0/16
+d) 12.40.0.0/16 
+
+8. The IP adress 12.40.24.6/16 has the following broadcast adress:
+a) 12.40.24.255/16
+b) 12.40.255.255/16 
+c) 12.40.0.0/16
+d) 12.40.255.0/16
+
+9. The following IP address is assignable to a host 143.66.0.128/25. 
+10. The following IP address is not assignable to a host 143.66.0.128/25.  
+
+11. How many assignable host IPs does the 255.255.240.0 netmask allows in a network?: 
+a) 1022
+b) 4096
+c) 4094 
+d) 2048 
+
+12. What is the short version of the 255.255.248.0 netmask?:
+a) /20
+b) /21 
+c) /17 
+d) /23 
+
+13. For a network with 6230 computers what would be the best fitting netmask? (a netmask that keeps the nr of wasted IPs to a minimum):
+a) 255.255.224.0 
+b) 255.255.0.0
+c) 255.255.252.0
+d) 255.128.0.0
+
+14. The IP Datagram header has a total size of 20 bytes (assuming no options). 
+15. The IP Datagram header has a total size of 24 bytes (assuming no options). 
+16. The IP Datagram header has a total size of 16 bytes (assuming no options). 
+
+17. The IP protocol allows transimissions of packets up to 64KB in size. 
+18. The IP protocol allows transimissions of packets up to 128KB in size. 
+19. The IP protocol allows transimissions of packets up to 256KB in size. 
+
+20. The mechanism that allows a source computer to find out the MAC address of a destination computer, given that the source knows the IP and has access to the destination, is:
+a) DHCP
+b) ARP
+c) NAT
+d) DNS
+
+21. The mechanism that allows a computer to obtain automatically an IP address from a server is:
+a) DNS
+b) NAT
+c) DHCP
+d) ARP
+
+22. The mechanism that allows a computer to connect to a website using its name instead of its IP address:
+a) NAT
+b) DNS
+c) ARP
+d) DHCP
+
+23. The mechanism that allows a computer from a private network to connect to a public network is:
+a) DNS
+b) NAT
+c) ARP
+d) DHCP
+
+24. When the TTL of a packet expires the source is notified by a router through the ICMP protocol. 
+
+TCP/UDP
+
+25. The TCP/IP Datagram header has a total size of 20 bytes (assuming no options). 
+26. The TCP/IP Datagram header has a total size of 40 bytes (assuming no options). 
+27. The TCP/IP Datagram header has a total size of 64 bytes (assuming no options). 
+28. The TCP/IP is an error-free data transfer protocol. 
+29. The UDP/IP is an error-free data transfer protocol. 
+30. In TCP/IP the sender needs confirmation from the receiver for every packet sent. 
+31. In UDP/IP the sender needs confirmation from the receiver for every packet sent. 
+32. The TCP/IP performs checksums only on the header and not on data as well. 
+33. The UDP/IP performs checksums only on the header and not on data as well. 
+
+34. In TCP/IP if we have a sequnce number of 200 and we sent a package with a size of 20 bytes, what should the acknowledgement number be?:
+a) 200
+b) 220 
+c) 201
+d) 221
+
+35. What flag of the TCP/IP header is only used only when the 3 Way Handshake takes place?
+a) ACK
+b) FIN
+c) RST
+d) SYN 
+
+36. What flag of the TCP/IP header is only used when the connection is being closed?
+a) SYN 
+b) FIN 
+c) RST
+d) ACK
+
+37. TCP is almost always faster than UDP. 
+
+38. What is the IP address of a localhost?:
+a) 192.168.0.1
+b) 0.0.0.0
+c) 127.0.0.1 
+d) 255.255.255.255
+
+39. What are the system reserved ports?:
+a) 0 - 255
+b) 0 - 511
+c) 0 - 1023 
+d) 0 - 2047
+
+40. In TCP you can ping all the hosts in a network using the broadcast address. 
+
+
+

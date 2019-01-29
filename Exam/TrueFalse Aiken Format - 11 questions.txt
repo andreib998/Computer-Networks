@@ -1,0 +1,54 @@
+
+A collection of computers (PCs, Workstations) and other devices interconnected represent a computer network.
+A. True
+B. False
+
+
+Hosts (computers), links (coaxial cable, twisted pair, optical fiber, radio, satellite), switches/routers (intermediate systems) are all components of a computer system.
+A. True
+B. False
+
+
+Big Endian means 'most significant byte first' while little endian means 'least significant byte first.
+A. True
+B. False
+
+
+SOCK_STREAM is used for UDP connections.
+A. True
+B. False
+
+
+SOCK_DGRAM is used for UDP connections.
+A. True
+B. False
+
+
+The optical fiber cable theoretically has unlimited bandwith.
+A. True
+B. False
+
+
+Every domain name that is not already in use is free to claim as your own.
+A. True
+B. False
+
+
+255.255.255.128 starts with 1 zero and ends with 7 zeroes.
+A. True
+B. False
+
+
+255.255.255.128 ends with 7 zeroes.
+A. True
+B. False
+
+
+Port forwarding is a use of NAT.
+A. True
+B. False
+
+
+Mac addresses are not guaranteed to be unique.
+A. True
+B. False

@@ -1,0 +1,345 @@
+
+
+Which of the following describes 'big endian'?
+A. most significant byte first
+B. most significant byte last
+C. least significant byte in the middle
+D. most significant byte in the middle
+E. None of the above.
+
+
+Which of the following describes 'little endian'?
+A. least significant byte first
+B. least significant byte last
+C. least significant byte in the middle
+D. most significant byte in the middle
+E. None of the above.
+
+
+What is the in-memory representation of 56E2 in little endian?
+A. 56E2
+B. E256
+C. 2E65
+D. 652E
+
+
+What is the in-memory representation of 56E2 in big endian?
+A. 56E2
+B. E256
+C. 2E65
+D. 652E
+
+
+How many bytes does 'double' use?
+A. 1 byte
+B. 4 bytes
+C. 8 bytes
+D. 16 bytes
+
+
+How many bytes does 'float' use?
+A. 1 byte
+B. 4 bytes
+C. 8 bytes
+D. 16 bytes
+
+
+What does TCP/IP stand for?
+A. Transport Control Protocol/Internet Protocol
+B. Transmission Check Protocol/Internet Protocol
+C. Transmission Control Protocol/Inverse Protocol
+D. Transmission Control Protocol/Internet Protocol
+
+
+What type of connection does SOCK_STREAM indicate?
+A. TCP connection
+B. UDP connection
+C. Closed connection
+D. Open connection
+
+
+What type of connection does SOCK_DGRAM indicate?
+A. TCP connection
+B. UDP connection
+C. Closed connection
+D. Open connection
+
+
+What does UDP stand for?
+A. User Defined Protocol
+B. User Datalink Protocol
+C. User Datagram Protocol
+D. Utility Datagram Protocol
+
+
+What does DNS stand for?
+A. Dynamic Name Server
+B. Dynamic Name System
+C. Domain Name Server
+D. Domain Name System
+
+
+How many different network layers are there (according to the OSI Reference Model)?
+A. 7 layers
+B. 4 layers
+C. 5 layers
+D. 9 layers
+E. The number of layers can vary.
+
+
+The 4 bottom network layer (according to the OSI Refererence Model), in order, are the following:
+A. Physical, Data link, Network, Transport
+B. Physical, Network, Data link, Transport
+C. Physical, Data link, Transport, Network
+D. Data link, Physical, Network, Transport
+
+
+What does FTP stand for?
+A. File Transmission Protocol
+B. File Transfer Protocol
+C. File Translocation Protocol
+D. Folder Transmission Protocol
+
+
+What is FTP used for?
+A. It is a protocol used to check if the datalink layer is working proberly.
+B. Transfering files over a network.
+C. It is a protocol used by mail servers.
+D. Accessing the WEB, sending HTML pages.
+
+
+What does SSH stand fro?
+A. Secure Shell Hook
+B. Structured Shell Hook
+C. Secure Shell
+D. Structured Shell
+
+
+What is SSH used for?
+A. Remote connection to the terminal / command line of another computer (remote command).
+B. Transfering files over a network.
+C. It is a protocol used by mail servers.
+D. Accessing the WEB, sending HTML pages.
+
+
+What is SMTP used for?
+A. Remote connection to the terminal / command line of another computer (remote command).
+B. Transfering files over a network.
+C. It is a protocol used by mail servers (mail Excahange).
+D. Accessing the WEB, sending HTML pages.
+
+
+What does P2P stand for?
+A. Peer to Peer.
+B. Point to Point.
+C. Point to Peer.
+D. Peer to Point.
+
+
+What is the maximum bandwith, the maximum amount of data that the optical fiber can carry?
+A. 100 Mb/s
+B. 1000 Mb/s
+C. 100 000 Mb/s
+D. There is no maximum.
+
+
+Since optical fiber has no limit in bandwith, what is a plausible reason for your lower internet speed?
+A. There is a limit to how much end devices can send an receive.
+B. Your router/modem is limited.
+C. You don't use fiber.
+D. The contract with your ISP limits your bandwith.
+E. All answers are correct.
+
+
+If I have a zip of size 1024 bytes and a connection of 32 bits/second to the computer I want to send the zip to, how long would it take for the zip to be sent?
+A. 128 seconds
+B. 1 second
+C. 10 seconds
+D. 1024 seconds
+
+
+What kind of signal flows through the optical fiber cable have?
+A. Electro-magnetic waves
+B. Light waves
+C. Both are of the above
+D. Electric current
+
+
+What type of physical signal does the wireless transmission use?
+A. Electro-magnetic waves
+B. Light waves
+C. Both are of the above
+D. Electric current
+
+
+How long is an IPv4 address?
+A. 4 bytes
+B. 32 bytes
+C. 16 bytes
+D. 8 bytes
+
+
+What does TLD stand for?
+A. Total Level Domain
+B. Total Level Distribution
+C. Top Level Domain
+D. Top Level Distribution
+
+
+What does ISP stand for?
+A. Internet Server Protocol
+B. Inverse Service Protocol
+C. Internet Service Provider
+D. Internet Server Provider
+
+
+Which of the following is a valid domain name?
+A. nontendo.com
+B. nds.nontendo.com
+C. nds.nontendo.ro
+D. All anssers are correct
+
+
+What does ROTLD stand for?
+A. Romanian Top Level Domain
+B. Russian Overview Top Level Domain
+C. Romanian Total Level Domain
+D. Romanian Top Level Distribution
+
+
+What is the 'Whois Query' used for?
+A. Checking if a domain name is already bought or not.
+B. Checking if a domain name has a server active and running.
+C. Checking if an IP is present on a network.
+D. Getting the IP of a domain name.
+
+
+Which of the following represents an FTP (File Transfer Protocol)?
+A. The TCP/IP
+B. The SMB or SAMBA Protocol
+C. The SSH Protocol
+D. The SMTP
+
+
+What is HTML?
+A. HTML is a langauge that is used to descirbe web pages.
+B. HTML is a language used for server programming.
+C. HTML is a language used for browser programming.
+D. All of the above are true.
+
+
+Which of the following is a correct mac address?
+A. 12-34-56-78-90-AB-CD
+B. G2-H3-24-13-12-3E
+C. G2-H3-24-13-12-3E-CD
+D. 12-34-56-78-90-AB
+
+
+What command would you use to find your network adapter's mac address if you are on windows?
+A. ipconfig
+B. arp /d
+C. ipconfig /all
+D. All of the above would work.
+
+
+What does ARP stand for?
+A. Address Resolution Protocol
+B. Address Refresh Protocol
+C. Address Reconstructuion Protocol
+D. Address Read Protocol
+
+
+What dose LAN stand for?
+A. Local Address Network
+B. Local Address Name
+C. Local Area Network
+D. Local Area Name
+
+
+What command would you use to test the Datalink Layer to see if it works (on Windows)?
+A. arp /a
+B. ipconfig /all
+C. ipconfig
+D. arp /d
+E. All answers are correct.
+
+
+Which of the following IP sets belong to 209.220.186.12/255.255.255.252 ip class?
+A. 209.220.186.12, 209.220.186.13, 209.220.186.14, 209.220.186.15
+B. 209.220.186.13, 209.220.186.14, 209.220.186.15, 209.220.186.16
+C. 209.220.186.12, 209.220.186.13, 209.220.186.14, 209.220.186.15, 209.220.186.16, 209.220.186.17, 209.220.186.14, 209.220.186.18
+D. 209.220.186.10, 209.220.186.11, 209.220.186.12, 209.220.186.13, 209.220.186.14, 209.220.186.15, 209.220.186.16, 209.220.186.17
+
+
+Which of the following is a valid IP/Netmask combination?
+A. 209.220.186.8/255.255.255.240
+B. 209.220.186.8/255.255.255.0
+C. 209.220.186.8/255.255.255.248
+D. 209.220.186.8/255.255.255.252
+E. C and D are both correct.
+
+
+How many bits of zero does the following netmask have? 255.255.255.248
+A. 2 bits
+B. 3 bits
+C. 4 bits
+D. 8 bits
+
+
+Which is the correct binary representation of the following netmask? 255.255.255.128
+A. 11111111 11111111 11111111 10000000.
+B. 11111111 11111111 11111111 11110000.
+C. 11111111 11111111 11111111 11000000.
+D. 11111111 11111111 11111111 00000000.
+
+
+What is the netmask for the following IP class? 192.168.0.0/24
+A. 255.255.255.128
+B. 255.255.255.0
+C. 255.255.0.0
+D. 255.0.0.0
+E. All netmasks are correct.
+
+
+What is the netmask for the following IP class? 10.10.0.0/17
+A. 255.255.255.128
+B. 255.255.255.0
+C. 255.255.128.0
+D. 255.255.0.0
+E. All netmasks are correct.
+
+
+How do you find the network address if you have the network mask and one random IP address in the network?
+A. You 'and' the netmask and the random IP
+B. You 'or' the netmask and the random IP
+C. You add the netmask and the random IP
+D. You 'xor' the netmask and the random IP
+
+
+What will you get if you 'or' together the natmaks of a network and one random IP in the network?
+A. The ip class.
+B. The first IP in the class of the random IP.
+C. The last IP in the class of the random IP.
+D. Nothing significant.
+
+
+What does NAT stand for?
+A. Network Address Translation
+B. Name Address Translocation
+C. Network Area Translation
+D. Network Area Translocation
+E. Name Area Translocation
+
+
+Which of the following involve NAT?
+A. Prot forwarding.
+B. Accessing the web from an internal network. Your PC's network will be translated to your public IP (i. e. home network)
+C. Both answers involve NAT.
+
+
+Are mac addressed guaranteed to be unique?
+A. No, buying the same type of a network adapter twice (from an online store) means you get the same mac address.
+B. No, the mac address is software related.
+C. Depends on the network adapter you have.
+D. Yes, because mac addresses are burned into the ROM of the network adapter.
+

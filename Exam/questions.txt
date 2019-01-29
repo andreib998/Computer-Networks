@@ -1,0 +1,83 @@
+Muntean Sam
+group 925
+
+1. What is a property of a computer network?
+
+a. all components are linked to a router.
+b. all components are interconnected.
+c. all components are linked using a coaxial cable.
+d. it has only PCs and workstations.
+
+
+2. Which of the following is NOT a computer network?
+
+a. The Internet.
+b. Worldwide telephone system.
+c. A PC connected to headphones.
+d. Telephone system.
+
+
+3. If AB12 is represented in big endian as AB12, what is its representation in little endian?
+
+a. 21BA.
+b. 12BA.
+c. BA21.
+d. 12AB.
+
+
+4. If 43ED is represented in big endian as AB12, what is its representation in little endian?
+
+a. DE34.
+b. ED43.
+c. DE43.
+d. ED34.
+
+
+5. What function call you don't find in an UDP server?
+
+a. recvfrom.
+b. bind.
+c. sendto.
+d. accept.
+
+
+6. What happens with the bytes that are not read by a TCP server?
+
+a. Are lost forever.
+b. Are sent back to source.
+c. Stay avalaible for next read.
+d. Are transfered to a special location in the network.
+
+
+7. How many bits have an IP address?
+
+a. 64.
+b. 32.
+c. 4.
+d. 16.
+
+
+8. Which of the following is NOT a valid IP netmask combination?
+
+a. 168.220.186.8/225.255.225.252.
+b. 156.198.186.8/255.255.255.254.
+c. 209.198.186.8/255.255.255.246.
+d. 168.220.186.64/255.255.255.240.
+
+
+9. When you have an ip address and the network mask what operation you need to do in order to find out the network address?
+
+a. or between ip and netmask.
+b. and between ip and netmask.
+c. divide the ip by the mask.
+d. you can't find the network address.
+
+
+10. Which of the following is NOT a valid IP netmask combination?
+
+a. 168.220.186.8/225.255.225.252.
+b. 156.198.186.16/255.255.255.254.
+c. 209.198.186.8/255.255.255.248.
+d. 168.220.186.8/255.255.255.240.
+
+
